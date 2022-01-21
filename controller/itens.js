@@ -1,6 +1,5 @@
 var mongoUtil = require('../services/db')
 
-
 const getItens = async (req, res) => {
     const page = req.query.page ? Number(req.query.page) : 0;
     const itensPerPage = req.query.itensPerPage ? Number(req.query.itensPerPage) : 0;
