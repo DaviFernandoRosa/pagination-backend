@@ -5,7 +5,6 @@ require('dotenv').config()
 
 const url = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.5ahhw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const dbName = process.env.DATABASE;
-
 var _db;
 
 const connectToServer = (callback) => {
