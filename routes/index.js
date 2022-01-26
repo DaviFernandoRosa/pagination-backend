@@ -10,5 +10,4 @@ mongoUtil.connectToServer(function (err) {
   router.get('/itens', getItens);
   router.get('/count', getCount)
 });
-
 module.exports = router;
